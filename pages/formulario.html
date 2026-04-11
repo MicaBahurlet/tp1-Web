@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../img/logoflomichar.jpeg" alt="logo">
+            <div><a href="../index.html">Inicio</a>
+                <a href="nosotros">Nosotros</a>
+                <a href="./formulario.html">Reservar cita</a> 
+                <search>
+                    <form action="/buscar" method="get">
+                        <label for="busqueda"></label>
+                        <input type="search" id="busqueda" name="b" placeholder="Buscar...">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </search> 
+            </div>
+        </nav>
+    </header>
+    <main> 
+        <Section>
+            <h1>Reserva de cita médica</h1>
+            <h4> Complete el siguiente formulario: </h4>
+        
+        </Section>
+        <section>
+            <form action="">
+                <div>
+                    <label for="nombre"> Nombre completo:  </label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <label for="email"> Email:  </label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="date"> Fecha de nacimiento:  </label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <div>
+                    <label for="departamento"> Seleccione departamento: </label>
+                    <select name="opciones" id="departamento">
+                        <option value=""> Selecciona una opción </option>
+                        <option value="odontologia"> Odontología </option>
+                        <option value="medicina"> Medicina general </option>
+                        <option value="patologia"> Patología </option>
+                        <option value="dermatologia"> Dermatología </option>
+                        <option value="oftamologia"> Oftamología </option>
+                    </select>
+                </div>
+                <div> 
+                    <button type="submit">Solicitar turno </button>
+                    <button>Escribinos</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="../img/logoflomichar.jpeg" alt="logo">
+            <p>Encontranos en las redes</p>
+            <div>
+                <a>Facebook</a> 
+                <a>X</a> 
+                <a>Instagram</a>
+            </div>
+        
+        </div>
+        <div>
+            <ul>
+                <h4>Departamentos</h4>
+                <li>Cuidado de ojos</li>
+                <li>Cuidado de piel</li>
+                <li>Patologías</li>
+                <li>Medicina</li>
+                <li>Dentista</li>
+            </ul>
+            <ul>
+                <h4>Links Útiles</h4>
+                <li>Acerca de</li>
+                <li>Blog</li>
+                <li>Acerca de</li>
+                <li>Contacto</li>
+                
+            </ul>
+            <ul>
+                <h4>Dirección</h4>
+                <li>200, d-block green lane USA</li>
+                <li>+54 9 45645645645</li>
+                <li>FloMiChar@upso.edu.ar</li>
+            </ul>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
