@@ -1,5 +1,7 @@
 # TP1 — Fundamentos del Diseño Web
 
+Integrantes: Domé Florencia, Spinetta Carlos, Bahurlet Micaela
+
 ---
 
 ## Consigna del Proyecto
